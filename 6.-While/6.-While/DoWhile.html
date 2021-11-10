@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset='utf-8'>
+    </head>
+<body>
+
+<p>Intenta adivinar el número aleatorio</p>
+
+<input type="button" onClick="aleatorio()" Value="Empezar"/>
+<div id='datos'></div>
+<script>
+    function aleatorio(){
+        let aleatorio = Math.ceil((Math.random() * 10));
+        let intentos = 0;
+        let escogido;
+        const MAX_TIRADAS = 5;
+
+        do{
+            escogido = prompt("Escoge un número: ");
+            intentos += 1;
+        }while(aleatorio != escogido && intentos < MAX_TIRADAS);
+        
+        if(aleatorio == escogido){
+            alert("Enhorabuena el número era el " + aleatorio + ". Has necesitado: "+intentos+" intentos");
+        }else{
+            alert(intentos+" intentos son demasiados para ganar");
+        }
+    }
+</script>
+
+</body>
+</html>
+

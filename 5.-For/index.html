@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset='utf-8'>
+         <title>Mis primeros Arrays</title>
+    </head>
+    <body>
+         <h1>Mis primeros programas con bucles</h1>
+         
+         <script>
+             var valores = ['Miguel', 1, 2, true];
+             console.log(valores);
+             console.log(valores[0]);
+             console.log(valores[1]);
+             console.log(valores[2]);
+             console.log(valores[3]);
+         
+         /*Si el array tuviera 1000 elementos, no puedo poner un console.log para cada uno...
+         para ello usamos los bucles y en este caso el for.
+         Cuando se trabaja con arrays es importante empezar con i=0*/
+         console.log("Contenido del vector recorrido mediante un for:");
+         let i;
+         for(i=0;i<valores.length;i++){
+             console.log(valores[i]);//i contiene cada posición del array, uno para cada ciclo del for
+         }
+
+         /*Para recorrer un array es más cómodo usar un for of*/
+         for(let valor of valores){
+             console.log(valor);
+         }
+         </script>
+    </body>
+</html>

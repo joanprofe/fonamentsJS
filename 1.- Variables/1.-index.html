@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset='utf-8'>
+         <title>Variables</title>
+    </head>
+    <body>
+         <h1>Primer programa con variables</h1>
+         <script>
+               var numero = 5;
+               console.log("Primer Console.log");
+               console.log(numero);
+               
+               numero = numero + 1;
+               console.log(numero);
+               
+               numero++;
+               console.log(numero);
+
+               numero += 1;
+               console.log("Último print:" + numero);
+               
+               /*Una variable en JavaScript puede contener diferentes tipos de datos
+               números, strings, boleanos...*/
+               var texto = "Hello World!";
+               console.log(texto);
+
+               texto = 25;
+               console.log(texto);
+               
+               const numPuertas = 5;
+
+               console.log("Número de puertas: " +numPuertas);
+               
+               /*No podemos alterar el valor de una constante*/
+               //numPuertas++;
+               console.log(numPuertas);
+         </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Form validation with JavaScript</title>
+  <link rel="stylesheet" href="styles.css">   
+</head>
+<body>
+  <div class="wrapper">
+   <form name="vform" action="/#" onsubmit="return Validate()" method="POST">
+	<div id="tel_div">
+	  <label>Teléfono</label> <br>
+	  <input type="tel" name="tel" id="tel" class="textInput">
+	  <div id="tel_error"></div>
+	</div>
+
+   	<div>
+   		<input type="submit" name="register" value="Register" class="btn">
+   	</div>
+   </form>
+</div>
+	
+     <script src='scripts.js' type='text/javascript'></script>
+</body>
+</html>

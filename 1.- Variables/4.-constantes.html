@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Declaring a Variable Using const</h2>
+
+<script>
+    /*No se puede declarar una variable con el mismo nombre que una constante*/
+    const y = 2;
+    //var y = 3;  
+
+
+    document.write("Antes de entrar en las llaves: " + y +`<br>`);
+    {  
+      /*Puedo declarar una constante que se llame igual dentro de las llaves porque es otro scope*/
+      /*Estoy declarando un array como una constante, el contenido del array puede cambiar,
+      lo que no puede cambiar es el tipo de datos*/
+      const y = new Array();
+      y.push(9);
+      y.push(7);
+      //y=5; //Lo que no puedo hacer es cambiar el tipo, en este caso no puedo cambiar de Array a variable
+      
+      document.write("Dentro de las llaves: " + y +`<br>`);
+    }
+    
+      document.write("Después de las llaves: " + y +`<br>`);
+
+    //Una constante no puede cambiar su valor. !Por eso es una constante¡
+    //y = 10;//Uncaught TypeError: Assignment to constant variable.
+    document.write(y);
+
+</script>
+
+</body>
+</html>

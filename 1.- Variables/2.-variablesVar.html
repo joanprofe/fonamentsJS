@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Variables con var</h2>
+
+<p id="demo"></p>
+
+<script>
+    /*Si declaro una variable con la palabra reservada var (variable global), aunque en otro scope le cambie el valor, 
+    el contenido de la variable se ha cambiado en todo el programa*/
+
+    //x es 10
+    var x = 10;
+    let y = 10;
+    document.write("El valor de var x es: "+ x + `<br>`);
+    document.write("El valor de let y es: "+ y + `<br>`);
+    {  
+      x = 2;
+      let y = 2;//Variable local del scope
+      document.write("El valor de x dentro del ámbito es: "+ x + `<br>`);
+      document.write("El valor de y dentro del ámbito es: "+ y + `<br>`);
+      
+      x = 5;//Si modifico el valor de una variable global, lo modifico en todo el programa:x = 5
+      y = 5;
+      document.write("El valor de x dentro del ámbito es: "+ x + `<br>`);
+      document.write("El valor de y dentro del ámbito es: "+ y + `<br>`);
+    }
+    //x = 5
+    document.write("El valor de x fuera del ámbito es: "+ x + `<br>`);
+    //y = 10
+    document.write("El valor de y fuera del ámbito es: "+ y + `<br>`);
+
+</script>
+
+</body>
+</html>

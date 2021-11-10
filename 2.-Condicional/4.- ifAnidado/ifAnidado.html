@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Condicionales</title>
+</head>
+
+<body>
+    <h1>If anidado</h1>
+    <p id="demo"></p>
+    <script>
+        let mensaje, nevando = true;
+        let temperatura = 4;
+
+        if (temperatura > 15) {
+            if (temperatura > 25) {
+                mensaje = "A la playa!!!";
+            } else {
+                mensaje = "A la montaña!!!";
+            }
+        } else if (temperatura < 5) {
+            if (nevando) {
+                mensaje = "A esquiar!!!";
+            }
+        } else {
+            mensaje = "A descansar... zZz";
+        }
+        document.getElementById("demo").innerHTML = mensaje;
+    </script>
+</body>
+
+</html>

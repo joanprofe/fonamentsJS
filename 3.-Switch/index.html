@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset='utf-8'>
+         <title>Switch</title>
+    </head>
+    <body>
+        <h1>Switch</h1>
+        Introduce el número del día de la semana: 
+        <input type="text" id="diaIntroducido" /><br>
+        <input type="button" onClick="diaSemana()" Value="Qué día es"/>
+        <p id="demo"></p>
+        <script>                         
+           function diaSemana(){
+            var saludo;
+            var dia = document.getElementById("diaIntroducido").value;
+            switch(dia){
+                case "1":
+                    saludo = "Lunes";
+                    break;
+                case "2":
+                    saludo = "Martes";
+                    break;
+                case "3":
+                    saludo = "Miércoles";
+                    break;
+                case "4":
+                    saludo = "Jueves";
+                    break;
+                case "5":
+                    saludo = "Viernes";
+                    break;
+                case "6":
+                    saludo = "Sábado";
+                    break;
+                case "7":
+                    saludo = "Domingo";
+                    break;
+                default:
+                    saludo = "Has introducido mal el número de día";
+            }
+            document.getElementById("demo").innerHTML = saludo;
+        }
+        </script>
+    </body>
+</html>

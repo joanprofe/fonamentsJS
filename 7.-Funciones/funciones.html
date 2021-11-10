@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset='utf-8'>
+         <title>Condicionales</title>
+    </head>
+    <body>
+
+        
+        <h1>Funciones</h1>
+        
+        Primer Número:<input type="text" id="numero1"/>
+        Segundo Número:<input type="text" id="numero2"/>
+        <input type="button" value="boton" onClick="operar()"/>
+        
+
+        <script>
+            
+            /*Se pueden tener:
+              1.- Funciones sin parámetros y sin return
+              2.- Funciones con parámetros y sin return
+              3.- Funciones con parámetros y con return
+              4.- Funciones sin parámetros y con return*/
+            
+            function operar(){
+                let resultado = 0;
+                let numero1 = parseInt(document.getElementById("numero1").value);
+                let numero2 = parseInt(document.getElementById("numero2").value);
+                
+                console.log("Resultado de la función sin parámetros");
+                resultado = sumar();
+                console.log(resultado);
+
+                console.log("Suma sin return");
+                suma(numero1, numero2);
+                
+                console.log("Suma con return");
+                resultado = suma2(numero1, numero2);
+                console.log(resultado);
+            }
+            
+            /*Función sin parámetros*/
+            function sumar(){
+                let resultado;
+                let num1 = parseInt(prompt("Introduce el primer número"));
+                let num2 = Number(prompt("Introduce el segundo número"));
+                resultado = num1 + num2;
+                return resultado;
+            }
+            
+            function suma(numero1, numero2){
+                let resultado = numero1 + numero2;
+                console.log(resultado);
+                suma3(resultado);//desde una función se llama a otra función
+            }
+
+            function suma3(res){
+                console.log("Suma3");
+                console.log(res);
+            }
+            
+            function suma2(numero1, numero2){
+                let resultado2 = numero1 + numero2;
+                return resultado2;
+            }
+        
+        </script>
+    </body>
+</html>

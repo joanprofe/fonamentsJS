@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Declaring a Variable Using let</h2>
+
+<p id="demo"></p>
+
+<script>
+
+
+    {  
+      /*variable local*/  
+      var x = "hola";
+      document.write("El valor de x dentro del ámbito es: "+ x + `<br>`);
+      let y = "hola";
+      document.write("El valor de y dentro del ámbito es: "+ y + `<br>`);
+
+    }
+    document.write("El valor de x fuera del ámbito es: "+ x + `<br>`);
+    x = "adios";
+    document.write("El valor de x fuera del ámbito es: "+ x + `<br>`);
+    
+    /*y no está definido fuera del ámbito*/
+    /*document.write("El valor de y fuera del ámbito es: "+ y + `<br>`);
+    y = "adios";
+    document.write("El valor de y fuera del ámbito es: "+ y + `<br>`);*/
+
+</script>
+
+</body>
+</html>
