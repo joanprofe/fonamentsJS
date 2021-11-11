@@ -2,6 +2,14 @@
 
 # Fundamentos de programación en JS
 
-## Guía básica de programación para los alumnos de **DAW** 
-### Declaración de variables, condicionales, arrays, bucles y funciones
+### Guía básica de programación para los alumnos de DAW
+#### Declaración de variables, condicionales, arrays, bucles y funciones
+- Variables
+- Condicionales
+- Switch
+- Arrays
+- For
+- While
+- Funciones
+- Formularios
 
