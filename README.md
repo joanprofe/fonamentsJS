@@ -12,5 +12,5 @@
 - While
 - Funciones
 - Formularios
-
-<script async src="//jsfiddle.net/joanprofe23/oe7jbqhr/1/embed/"></script>
+- 
+<script async src="//jsfiddle.net/joanprofe23/oe7jbqhr/1/embed/js,html,result/"></script>>
