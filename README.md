@@ -4,4 +4,3 @@
 
 Guía básica de programación: declaración de variables, condicionales, arrays, bucles y funciones
 
-fonamentsJS/0- programa base/
