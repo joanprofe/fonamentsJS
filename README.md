@@ -2,7 +2,7 @@
 
 # Fundamentos de programación en JS
 
-### Fundamentos básicos de programación para los alumnos de DAW
+### Fundamentos básicos de programación para alumnos de DAW
 #### Declaración de variables, condicionales, arrays, bucles y funciones
 - Variables
 - Condicionales
