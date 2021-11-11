@@ -12,4 +12,4 @@
 - While
 - Funciones
 - Formularios
-<iframe width="100%" height="500" src="//jsfiddle.net/joanprofe23/oe7jbqhr/3/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="400" src="//jsfiddle.net/joanprofe23/oe7jbqhr/3/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
