@@ -3,7 +3,7 @@
 # Fundamentos de programación en JS
 
 ### Fundamentos básicos de programación para alumnos de DAW
-#### Declaración de variables, condicionales, arrays, bucles y funciones
+#### Pequeños ejemplos de declaración de variables, condicionales, arrays, bucles y funciones
 - Variables
 - Condicionales
 - Switch
@@ -12,4 +12,3 @@
 - While
 - Funciones
 - Formularios
-<iframe width="100%" height="400" src="//jsfiddle.net/joanprofe23/oe7jbqhr/3/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
