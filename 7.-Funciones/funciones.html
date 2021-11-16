@@ -17,10 +17,10 @@
         <script>
             
             /*Se pueden tener:
-              1.- Funciones sin parámetros y sin return
-              2.- Funciones con parámetros y sin return
-              3.- Funciones con parámetros y con return
-              4.- Funciones sin parámetros y con return*/
+              Funciones sin parámetros y sin return
+              Funciones con parámetros y sin return
+              Funciones con parámetros y con return
+              Funciones sin parámetros y con return*/
             
             function operar(){
                 let resultado = 0;
@@ -39,7 +39,7 @@
                 console.log(resultado);
             }
             
-            /*Función sin parámetros*/
+            //Función con return y sin parámetros
             function sumar(){
                 let resultado;
                 let num1 = parseInt(prompt("Introduce el primer número"));
@@ -48,6 +48,7 @@
                 return resultado;
             }
             
+            //Función sin return y con parámetros
             function suma(numero1, numero2){
                 let resultado = numero1 + numero2;
                 console.log(resultado);
@@ -59,6 +60,7 @@
                 console.log(res);
             }
             
+            //Función con return y con parámetros
             function suma2(numero1, numero2){
                 let resultado2 = numero1 + numero2;
                 return resultado2;
